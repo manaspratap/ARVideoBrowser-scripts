@@ -70,7 +70,7 @@
 
 ## 🏠 About The Project
 
-ARVideoBrowser-script is a service that will return an URL to play a video for the searched query. At this moment, it used YouTube to search for videos.
+ARVideoBrowser-script is a service that will return an URL to play a video for the searched query. At this moment, it uses YouTube as a database of videos.
 
 ### ARVideoBrowser
 
@@ -119,10 +119,10 @@ Once you have this application running:
 ```
 
 - Send a GET request to the path: **/video**
-- With parameter: **name**
-- And value: **your+search+word**
+- With the parameter: **name**
+- And the value: **your+search+word**
 
-So, `/video?name=your+search+word` will then return an URL for the search query.
+So, `{{url}}/video?name=your+search+word` will then return an URL for the search query.
 
 It is also available here:
 
